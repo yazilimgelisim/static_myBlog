@@ -1,0 +1,21 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   width: 100%;
+   height: auto;
+   min-height: 100vh;
+   background-color: #efefef;
+}
+img, video{
+   width: 100%;
+}
+a, a:active, a:link, a::before, a::after{
+   color: black;
+   text-decoration: none;
+}
+ul{
+   list-style: none;
+}
