@@ -3,6 +3,12 @@
    padding: 0;
    box-sizing: border-box;
 }
+html::-webkit-scrollbar{
+   width: 0px;
+}
+html{
+   scroll-behavior: smooth;
+}
 body{
    width: 100%;
    height: auto;
