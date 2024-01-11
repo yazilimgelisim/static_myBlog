@@ -1,0 +1,81 @@
+.about {
+   padding: 0px 20px;
+}
+
+.about .wrapper {
+   width: 100%;
+   max-width: 1366px;
+   margin: 50px auto;
+   padding: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   display: flex;
+}
+.about .wrapper:nth-child(2n) {
+   flex-direction: row-reverse;
+}
+
+.about .wrapper .text {
+   flex: 2;
+   padding: 5px;
+}
+
+.about .wrapper .text h1 {
+   font-family: 'Dancing Script', cursive;
+}
+.about .wrapper .text p {
+   font-family: 'Josefin Sans', sans-serif;
+   padding: 10px;
+   font-size: 1.2rem;
+   line-height: 25px;
+}
+.about .wrapper .text p::first-letter {
+   margin-left: 20px;
+}
+
+
+.about .wrapper .photo {
+   flex: 2;
+   overflow: hidden;
+   border-radius: 10px;
+}
+.about .wrapper .photo img{
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+.about .wrapper .photo img:hover{
+   transform: scale(1.2);
+}
+
+
+/* Scroll animation */
+.about .wrapper {
+   opacity: 0;
+   transition: all 0.5s;
+}
+.about .wrapper.active {
+   opacity: 1;
+}
+.about .wrapper .text {
+   transform: translateX(-20px);
+   transition: all 0.5s;
+}
+.about .wrapper:nth-child(2n) .text {
+   transform: translateX(20px);
+}
+.about .wrapper.active .text {
+   transform: translateX(0px);
+}
+
+.about .wrapper .photo {
+   transform: translateX(20px);
+   transition: all 0.5s;
+}
+.about .wrapper:nth-child(2n) .photo {
+   transform: translateX(-20px);
+}
+.about .wrapper.active .photo {
+   transform: translateX(0px);
+}
+
