@@ -43,24 +43,22 @@
    </div>
 
 
-
-   <div class="logReg">
-      <img src="../public/img/background/login.jpg" alt="register">
+   <div class="add">
       <form>
-
-         <div class="formGroup">
-            <input type="text" required>
-            <span>Username *</span>
+         <div class="text">
+            <input type="text" placeholder="Your Title *" required>
+            <textarea placeholder="Your Content *" required></textarea>
+            <input type="text" placeholder="Your Name *" required>
          </div>
 
-         <div class="formGroup">
-            <input type="text" required>
-            <span>Password *</span>
-         </div>
-
-         <div class="btnGroup">
-            <a href="./login.html">Do you have an account?</a>
-            <button>Register</button>
+         <div class="button">
+            <button>
+               <i class="fa-solid fa-plus"></i>
+            </button>
+            <label for="file">
+               <i class="fa-solid fa-image"></i>
+            </label>
+            <input type="file" id="file" style="display: none;"> 
          </div>
       </form>
    </div>

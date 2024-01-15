@@ -1,0 +1,79 @@
+.add {
+   width: 100%;
+   height: calc(100vh - 50px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.add form {
+   background-color: rgba(0, 0, 0, 0.1);
+   display: flex;
+   height: 450px;
+   width: 90%;
+   max-width: 1000px;
+   padding: 20px;
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.add form .text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 90%;
+}
+
+.add form .text input,
+.add form .text textarea {
+   width: 90%;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+}
+
+.add form .text input {
+   height: 40px;
+   padding: 0px 0px 0px 10px;
+   font-size: 1.1rem;
+}
+
+.add form .text input:first-child {
+   font-family: 'Pacifico', cursive;
+}
+
+.add form .text input:last-child {
+   font-family: 'Dancing Script', cursive;
+   font-weight: 700;
+}
+
+.add form .text textarea {
+   height: 180px;
+   padding: 10px 0px 0px 10px;
+   font-family: 'Arvo', serif;
+   font-size: 1rem;
+}
+
+.add form .button {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 10%;
+}
+.add form .button button, .add form .button label{
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: lightgreen;
+   border: none;
+   outline: none;
+   border-radius: 50%;
+   font-size: 1.1rem;
+   cursor: pointer;
+}
+.add form .button label{
+   background-color: rgb(255, 231, 159);
+}
