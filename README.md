@@ -1,6 +1,6 @@
 # myBlog Statik Web Projesi
 
-## Proejnin Hedefi:
+## Projenin Hedefi:
 * HTML - CSS kodlarını temel sevideye bilip proje geliştirmekte zorlanan arkadaşlarımız için "örnek bir web projesi nasıl yapılır" sorusuna cevap olarak hazırlanmıştır.
 
 ## Projenin demo hali:
